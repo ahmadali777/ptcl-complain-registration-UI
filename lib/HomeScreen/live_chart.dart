@@ -14,7 +14,7 @@ class _ChatScreenState extends State<ChatScreen> {
   final TextEditingController _userInput = TextEditingController();
   final ScrollController _scrollController = ScrollController();
 
-  static const apiKey = "AIzaSyD-nTNXulcU6nORnRMMFZODZkhrW87qJVw";
+  static const apiKey = "";
   final model = GenerativeModel(model: 'gemini-pro', apiKey: apiKey);
 
   final List<Message> _messages = [
